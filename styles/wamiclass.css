@@ -1,0 +1,26 @@
+.button_blue_white {
+    border: 2px solid #06abff;
+    border-radius: 20px;
+    background: none;
+    color: aliceblue;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.button_blue_white:hover {
+    background: #06abff;
+}
+
+.button_blue {
+    border: 2px solid #06abff;
+    border-radius: 20px;
+    background: #06abff;
+    color: aliceblue;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.button_blue:hover {
+    background: none;
+    color: #06abff;
+}

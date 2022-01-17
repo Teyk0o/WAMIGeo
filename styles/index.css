@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "LouisCafe";
+    src: url(".././fonts/LouisGeorgeCafe.ttf");
+}
+
+/** 0077B6 */
+
+body {
+    background-color: #030201;
+}
+
+#starsBG {
+    width: 100%;
+    height: 950px;
+    background: linear-gradient(to top, rgba(3, 2, 1, 1), rgba(3, 2, 1, 0) 90%), linear-gradient(to bottom, rgba(3, 2, 1, 1), rgba(3, 2, 1, 0) 20%) ,url(".././img/sky.jpg");
+    background-size: 100%;
+}
+
+#earthImg {
+    width: 79%;
+    height: 950px;
+    position: absolute;
+    left: 6%;
+    background-image: linear-gradient(to top, rgba(3, 2, 1, 1), rgba(3, 2, 1, 0) 30%), url(".././img/earth.png");
+    pointer-events: none;
+}
+
+#wamilogo {
+    position: absolute;
+    height: auto;
+    width: 10%;
+    top: -41px;
+    left: 2%;
+}
+
+#navbarTop {
+    left: 36%;
+    top: 36px;
+    position: absolute;
+}
+
+.navbarTop {
+    font-family: LouisCafe, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 70px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.navbarTop:hover {
+    color: #06abff;
+    text-decoration: underline;
+}
+
+#profil {
+    margin-left: 524px;
+}
+
+#slogan {
+    font-family: LouisCafe, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    position: absolute;
+    top: 162px;
+    left: 35%;
+}
+
+#subSlogan {
+    text-align: center;
+    font-family: LouisCafe, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    top: 255px;
+    left: 31%;
+}
+
+#signUp {
+    width: 250px;
+    height: 51px;
+    font-size: 20px;
+    position: absolute;
+    top: 462px;
+    left: 43%;
+}
+
+#earthBG {
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(to top, rgba(3, 2, 1, 1), rgba(3, 2, 1, 0) 20%), linear-gradient(to bottom, rgba(3, 2, 1, 1), rgba(3, 2, 1, 0) 20%) ,url(".././img/earth_all.jpg");
+    background-size: 100%;
+}
+
+#topTitle {
+    font-family: LouisCafe, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    position: absolute;
+    top: 1016px;
+    left: 15%;
+}
+
+#topParagraph {
+    text-align: center;
+    font-family: LouisCafe, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    top: 1139px;
+    left: 9%;
+}
+
+#friendTitle {
+    font-family: LouisCafe, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    position: absolute;
+    top: 1016px;
+    left: 58%;
+}
+
+#friendParagraph {
+    text-align: center;
+    font-family: LouisCafe, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    top: 1139px;
+    left: 57%;
+}
+
+#joinBG {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to top, rgba(3, 2, 1, 1), rgba(3, 2, 1, 0) 20%), linear-gradient(to bottom, rgba(3, 2, 1, 1), rgba(3, 2, 1, 0) 20%) ,url(".././img/joinBG.png");
+    background-size: 100%;
+}
+
+#testerTitle {
+    font-family: LouisCafe, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    position: absolute;
+    top: 1727px;
+    left: 15%;
+}
+
+#joinParagraph {
+    text-align: left;
+    font-family: LouisCafe, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    top: 1832px;
+    left: 15%;
+}
+
+#joinButton {
+    width: 250px;
+    height: 51px;
+    font-size: 20px;
+    position: absolute;
+    top: 2018px;
+    left: 15%;
+}
